@@ -7,8 +7,8 @@
 | Project Title | E-Commerce Customer Behaviour & Revenue Analytics |
 | Sector | Retail / E-Commerce |
 | Team ID | C3 |
-| Group Name | Hopper |
-| Section | C-3 |
+| Group Name | C-3 |
+| Batch | Hopper |
 | Faculty Mentor | Kajal Badlani |
 | Institute | NST, ADYPU |
 | Submission Date | April 28, 2026 |

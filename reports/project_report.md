@@ -10,7 +10,7 @@
 | Project Title | E-Commerce Customer Behaviour & Revenue Analytics |
 | Sector | Retail / E-Commerce |
 | Dataset | UK Online Retail (Kaggle — carrie1/ecommerce-data) |
-| Group Name | Hopper |
+| Group Name | C-3 |
 | Group Members | SANJANA; Sanket Jha; Ved Vadnere; Vinayak Singh; Vivek Wagadare |
 | Team ID | C3 |
 | Section | C-3 |
