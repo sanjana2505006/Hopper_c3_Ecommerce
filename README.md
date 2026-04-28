@@ -8,7 +8,7 @@
 | Sector | Retail / E-Commerce |
 | Team ID | C3 |
 | Group Name | Hopper |
-| Section | [SECTION NAME] |
+| Section | C-3 |
 | Faculty Mentor | [FACULTY MENTOR NAME] |
 | Institute | [INSTITUTE NAME] |
 | Submission Date | April 28, 2026 |
@@ -19,15 +19,13 @@
 
 | Role | Name | GitHub Username |
 |---|---|---|
-| Project Lead | [NAME] | [GITHUB] |
-| Data Lead | [NAME] | [GITHUB] |
-| ETL Lead | [NAME] | [GITHUB] |
-| Analysis Lead | [NAME] | [GITHUB] |
-| Visualization Lead | [NAME] | [GITHUB] |
-| Strategy Lead | [NAME] | [GITHUB] |
-| PPT and Quality Lead | [NAME] | [GITHUB] |
+| Project Lead | Sanjana | sanjana2505006 |
+| Data Lead + Analysis Lead | Sanket Jha | learn-dumboo24 |
+| ETL Lead | Ved Vadnere | [GITHUB] |
+| Visualization Lead | Vivek Wagadare | [GITHUB] |
+| Strategy Lead + PPT Lead | Vinayak Singh | [GITHUB] |
 
-> **Group Members:** [NAME1]; [NAME2]; [NAME3]; [NAME4]; [NAME5]; [NAME6]; [NAME7]
+> **Group Members:** SANJANA; Sanket Jha; Ved Vadnere; Vinayak Singh; Vivek Wagadare
 
 ---
 

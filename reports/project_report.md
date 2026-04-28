@@ -11,9 +11,9 @@
 | Sector | Retail / E-Commerce |
 | Dataset | UK Online Retail (Kaggle — carrie1/ecommerce-data) |
 | Group Name | Hopper |
-| Group Members | [NAME1]; [NAME2]; [NAME3]; [NAME4]; [NAME5]; [NAME6]; [NAME7] |
+| Group Members | SANJANA; Sanket Jha; Ved Vadnere; Vinayak Singh; Vivek Wagadare |
 | Team ID | C3 |
-| Section | [SECTION] |
+| Section | C-3 |
 | Faculty Mentor | [MENTOR NAME] |
 | Submission Date | April 28, 2026 |
 
