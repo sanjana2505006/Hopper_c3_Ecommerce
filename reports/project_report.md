@@ -14,7 +14,7 @@
 | Group Members | SANJANA; Sanket Jha; Ved Vadnere; Vinayak Singh; Vivek Wagadare |
 | Team ID | C3 |
 | Section | C-3 |
-| Faculty Mentor | [MENTOR NAME] |
+| Faculty Mentor | Kajal Badlani |
 | Submission Date | April 28, 2026 |
 
 ---

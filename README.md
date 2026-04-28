@@ -9,7 +9,7 @@
 | Team ID | C3 |
 | Group Name | Hopper |
 | Section | C-3 |
-| Faculty Mentor | [FACULTY MENTOR NAME] |
+| Faculty Mentor | Kajal Badlani |
 | Institute | [INSTITUTE NAME] |
 | Submission Date | April 28, 2026 |
 
