@@ -2,28 +2,28 @@
 
 ## Project Overview
 
-| Field | Details |
-|---|---|
-| Project Title | E-Commerce Customer Behaviour & Revenue Analytics |
-| Sector | Retail / E-Commerce |
-| Team ID | C3 |
-| Group Name | C-3 |
-| Batch | Hopper |
-| Faculty Mentor | Kajal Badlani |
-| Institute | NST, ADYPU |
-| Submission Date | April 28, 2026 |
+| Field           | Details                                           |
+| --------------- | ------------------------------------------------- |
+| Project Title   | E-Commerce Customer Behaviour & Revenue Analytics |
+| Sector          | Retail / E-Commerce                               |
+| Team ID         | C3                                                |
+| Group Name      | C-3                                               |
+| Batch           | Hopper                                            |
+| Faculty Mentor  | Kajal Badlani                                     |
+| Institute       | NST, ADYPU                                        |
+| Submission Date | April 28, 2026                                    |
 
 ---
 
 ## Team Members
 
-| Role | Name | GitHub Username |
-|---|---|---|
-| Project Lead | Sanjana | sanjana2505006 |
-| Data Lead + Analysis Lead | Sanket Jha | learn-dumboo24 |
-| ETL Lead | Ved Vadnere | [GITHUB] |
-| Visualization Lead | Vivek Wagadare | [GITHUB] |
-| Strategy Lead + PPT Lead | Vinayak Singh | [GITHUB] |
+| Role                      | Name           | GitHub Username |
+| ------------------------- | -------------- | --------------- |
+| Project Lead              | Sanjana        | sanjana2505006  |
+| Data Lead + Analysis Lead | Sanket Jha     | learn-dumboo24  |
+| ETL Lead                  | Ved Vadnere    | Archis009       |
+| Strategy Lead + PPT Lead  | Vinayak Singh  | vini4721        |
+| Visualization Lead        | Vivek Wagadare | [GITHUB]        |
 
 > **Group Members:** SANJANA; Sanket Jha; Ved Vadnere; Vinayak Singh; Vivek Wagadare
 
@@ -43,54 +43,54 @@ This analysis enables the commercial team to prioritise retention investment tow
 
 ## Dataset
 
-| Field | Value |
-|---|---|
-| Source Name | UK Online Retail Dataset |
-| Direct Access Link | https://www.kaggle.com/datasets/carrie1/ecommerce-data |
-| Row Count (raw) | 541,909 |
-| Row Count (cleaned) | ~392,692 |
-| Column Count | 8 raw → 13 cleaned |
-| Time Period Covered | December 2010 – December 2011 |
-| Format | CSV (latin1 encoding) |
+| Field               | Value                                                  |
+| ------------------- | ------------------------------------------------------ |
+| Source Name         | UK Online Retail Dataset                               |
+| Direct Access Link  | https://www.kaggle.com/datasets/carrie1/ecommerce-data |
+| Row Count (raw)     | 541,909                                                |
+| Row Count (cleaned) | ~392,692                                               |
+| Column Count        | 8 raw → 13 cleaned                                     |
+| Time Period Covered | December 2010 – December 2011                          |
+| Format              | CSV (latin1 encoding)                                  |
 
 ### Key Columns Used
 
-| Column Name | Description | Role in Analysis |
-|---|---|---|
-| InvoiceNo | Unique transaction ID | Order counting, grouping |
-| CustomerID | Unique customer identifier | RFM, segmentation, retention |
-| InvoiceDate | Date and time of purchase | Time series, seasonality |
-| Quantity | Units purchased per line item | Volume KPIs |
-| UnitPrice | Price per unit (£) | Revenue computation |
-| Country | Customer country | Geographic analysis |
-| Revenue | Quantity × UnitPrice (derived) | Primary KPI metric |
-| Segment | RFM-based customer label (derived) | Segmentation analysis |
+| Column Name | Description                        | Role in Analysis             |
+| ----------- | ---------------------------------- | ---------------------------- |
+| InvoiceNo   | Unique transaction ID              | Order counting, grouping     |
+| CustomerID  | Unique customer identifier         | RFM, segmentation, retention |
+| InvoiceDate | Date and time of purchase          | Time series, seasonality     |
+| Quantity    | Units purchased per line item      | Volume KPIs                  |
+| UnitPrice   | Price per unit (£)                 | Revenue computation          |
+| Country     | Customer country                   | Geographic analysis          |
+| Revenue     | Quantity × UnitPrice (derived)     | Primary KPI metric           |
+| Segment     | RFM-based customer label (derived) | Segmentation analysis        |
 
 ---
 
 ## KPI Framework
 
-| KPI | Definition | Formula / Computation |
-|---|---|---|
-| Total Revenue | Sum of all transaction revenue | SUM(Revenue) |
-| Average Order Value (AOV) | Mean invoice total | SUM(Revenue) / COUNT(DISTINCT InvoiceNo) |
-| Repeat Purchase Rate | % customers with > 1 invoice | Notebook 05 → kpi_customers.csv |
-| Monthly Revenue Growth (MoM %) | % change month-over-month | (Rev_M − Rev_M−1) / Rev_M−1 × 100 |
-| Revenue per Customer | Mean total spend per customer | SUM(Revenue) / COUNT(DISTINCT CustomerID) |
-| UK Revenue Share (%) | % of total revenue from UK | UK_Rev / Total_Rev × 100 |
-| RFM Score | Customer value score (3–15) | R + F + M quintile scores |
-| Cohort Retention Rate | % of customers returning each month | Cohort pivot ÷ cohort size |
+| KPI                            | Definition                          | Formula / Computation                     |
+| ------------------------------ | ----------------------------------- | ----------------------------------------- |
+| Total Revenue                  | Sum of all transaction revenue      | SUM(Revenue)                              |
+| Average Order Value (AOV)      | Mean invoice total                  | SUM(Revenue) / COUNT(DISTINCT InvoiceNo)  |
+| Repeat Purchase Rate           | % customers with > 1 invoice        | Notebook 05 → kpi_customers.csv           |
+| Monthly Revenue Growth (MoM %) | % change month-over-month           | (Rev_M − Rev_M−1) / Rev_M−1 × 100         |
+| Revenue per Customer           | Mean total spend per customer       | SUM(Revenue) / COUNT(DISTINCT CustomerID) |
+| UK Revenue Share (%)           | % of total revenue from UK          | UK_Rev / Total_Rev × 100                  |
+| RFM Score                      | Customer value score (3–15)         | R + F + M quintile scores                 |
+| Cohort Retention Rate          | % of customers returning each month | Cohort pivot ÷ cohort size                |
 
 ---
 
 ## Tableau Dashboard
 
-| Field | Value |
-|---|---|
-| Dashboard URL | [ADD TABLEAU PUBLIC LINK] |
-| Executive View | KPI summary — total revenue, AOV, top countries, monthly trend |
+| Field            | Value                                                              |
+| ---------------- | ------------------------------------------------------------------ |
+| Dashboard URL    | [ADD TABLEAU PUBLIC LINK]                                          |
+| Executive View   | KPI summary — total revenue, AOV, top countries, monthly trend     |
 | Operational View | RFM segments, top products, cohort retention, day-of-week patterns |
-| Main Filters | Country · Year-Month range · Customer Segment |
+| Main Filters     | Country · Year-Month range · Customer Segment                      |
 
 See `tableau/dashboard_links.md` and `tableau/screenshots/`.
 
@@ -113,27 +113,27 @@ See `tableau/dashboard_links.md` and `tableau/screenshots/`.
 
 ## Recommendations
 
-| # | Insight | Recommendation | Expected Impact |
-|---|---|---|---|
-| 1 | Champion customers drive outsized revenue | Launch VIP loyalty programme targeting top RFM quintile with exclusive early access and discounts | +10–15% revenue from top segment |
-| 2 | At Risk customers (high past spend, low recency) | Deploy automated win-back email campaign 60–90 days after last purchase | Recover 15–20% of at-risk customers |
-| 3 | Q4 seasonal spike is predictable | Pre-build inventory for top 20 products by August; increase digital ad spend from September | Reduce stockouts; capture peak demand |
-| 4 | Month-1 churn is high (~75% of new customers don't return) | Implement onboarding email sequence + first-repeat-purchase discount within 30 days | Improve 90-day retention from 25% → 35% |
-| 5 | International orders have higher AOV | Invest in localised storefronts for Netherlands, Germany, and France | +5–8% international revenue |
+| #   | Insight                                                    | Recommendation                                                                                    | Expected Impact                         |
+| --- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| 1   | Champion customers drive outsized revenue                  | Launch VIP loyalty programme targeting top RFM quintile with exclusive early access and discounts | +10–15% revenue from top segment        |
+| 2   | At Risk customers (high past spend, low recency)           | Deploy automated win-back email campaign 60–90 days after last purchase                           | Recover 15–20% of at-risk customers     |
+| 3   | Q4 seasonal spike is predictable                           | Pre-build inventory for top 20 products by August; increase digital ad spend from September       | Reduce stockouts; capture peak demand   |
+| 4   | Month-1 churn is high (~75% of new customers don't return) | Implement onboarding email sequence + first-repeat-purchase discount within 30 days               | Improve 90-day retention from 25% → 35% |
+| 5   | International orders have higher AOV                       | Invest in localised storefronts for Netherlands, Germany, and France                              | +5–8% international revenue             |
 
 ---
 
 ## Contribution Matrix
 
-| Task | Sanjana | Sanket Jha |
-|---|---|---|
-| Dataset & Sourcing | Owner | |
-| Data Loading & Initial EDA (NB 01–03) | Owner | |
-| ETL Cleaning Pipeline (NB 02) | | Owner |
-| Statistical Analysis (NB 04) | | Owner |
-| KPI Computation & Final Load (NB 05) | | Owner |
-| Tableau Dashboard | | Owner |
-| Report Writing | | Owner |
+| Task                                  | Sanjana | Sanket Jha |
+| ------------------------------------- | ------- | ---------- |
+| Dataset & Sourcing                    | Owner   |            |
+| Data Loading & Initial EDA (NB 01–03) | Owner   |            |
+| ETL Cleaning Pipeline (NB 02)         |         | Owner      |
+| Statistical Analysis (NB 04)          |         | Owner      |
+| KPI Computation & Final Load (NB 05)  |         | Owner      |
+| Tableau Dashboard                     |         | Owner      |
+| Report Writing                        |         | Owner      |
 
 > We confirm that the above contribution details are accurate and verifiable through GitHub Insights, PR history, and submitted artifacts. — Team Lead: Sanjana
 
