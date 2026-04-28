@@ -4,9 +4,9 @@
 
 | View | URL |
 |---|---|
-| Tableau Public Dashboard | [ADD LINK AFTER PUBLISHING] |
-| Executive View | [ADD LINK] |
-| Operational View | [ADD LINK] |
+| Tableau Public Dashboard | https://public.tableau.com/views/Hopper_C3_Ecommerce_Dashboard/Dashboard1 |
+| Executive View | https://public.tableau.com/views/Hopper_C3_Ecommerce_Dashboard/Dashboard1 |
+| Operational View | https://public.tableau.com/views/Hopper_C3_Ecommerce_Dashboard/Dashboard1 |
 
 ## Dashboard Filters
 - Country (UK / Non-UK / All)
