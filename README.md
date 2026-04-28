@@ -125,17 +125,17 @@ See `tableau/dashboard_links.md` and `tableau/screenshots/`.
 
 ## Contribution Matrix
 
-| Task | [Member 1] | [Member 2] | [Member 3] | [Member 4] | [Member 5] | [Member 6] | [Member 7] |
-|---|---|---|---|---|---|---|---|
-| Dataset & Sourcing | Owner | Support | | | | | |
-| ETL & Cleaning | | Owner | Support | | | | |
-| EDA & Analysis | | | Owner | Support | | | |
-| Statistical Analysis | | | | Owner | Support | | |
-| Tableau Dashboard | | | | | Owner | Support | |
-| Report Writing | | | | | | Owner | Support |
-| PPT & Viva | Support | | | | | | Owner |
+| Task | Sanjana | Sanket Jha |
+|---|---|---|
+| Dataset & Sourcing | Owner | |
+| Data Loading & Initial EDA (NB 01–03) | Owner | |
+| ETL Cleaning Pipeline (NB 02) | | Owner |
+| Statistical Analysis (NB 04) | | Owner |
+| KPI Computation & Final Load (NB 05) | | Owner |
+| Tableau Dashboard | | Owner |
+| Report Writing | | Owner |
 
-> We confirm that the above contribution details are accurate and verifiable through GitHub Insights, PR history, and submitted artifacts. — Team Lead
+> We confirm that the above contribution details are accurate and verifiable through GitHub Insights, PR history, and submitted artifacts. — Team Lead: Sanjana
 
 ---
 
